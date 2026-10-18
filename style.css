@@ -1,0 +1,10 @@
+h1{
+  font-family: verdana;
+  text-align: center;
+  color: cyan;
+}
+ body{
+   margin-left: 20 px;
+   margin-right: 20 px;
+   font-family: verdana;
+ }
