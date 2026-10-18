@@ -6,6 +6,10 @@ html.kimi{
   background: linear-gradient(90deg,rgba(11, 138, 26, 1) 0%, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 1) 93%, rgba(255, 0, 0, 1) 100%);
 }
 
+html.ham{
+  background: linear-gradient(90deg,rgba(96, 11, 138, 1) 0%, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 1) 93%, rgba(203, 249, 40, 1) 100%);
+}
+
 h1{
   font-family: verdana;
   text-align: center;
