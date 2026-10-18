@@ -19,11 +19,14 @@ h3{
 p {
   margin-right: 100px;
   margin-left: 100px;
-  float:right;
   text-align: justify; 
 }
 
 li{
   margin-right: 150px;
   margin-left: 150px;
+}
+
+a{
+  object-position: center;
 }
