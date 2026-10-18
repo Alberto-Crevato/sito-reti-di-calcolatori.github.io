@@ -4,11 +4,25 @@ h1{
   color: cyan;
 }
  body{
-   margin-right: 100px;
-   margin-left: 100px;
    font-family: verdana;
  }
 
+h3{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 p {
+  margin-right: 100px;
+  margin-left: 100px;
   text-align: justify; 
+}
+
+il{
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+img{
+  object-position: center;
 }
