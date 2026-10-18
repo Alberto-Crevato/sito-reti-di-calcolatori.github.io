@@ -26,12 +26,3 @@ li{
   margin-right: 150px;
   margin-left: 150px;
 }
-
-.allinea1{
-  width: 500px;
-  height: 150px;
-  border: none;
-  background-color: white;
-  object-fit: none;
-  object-position: center;
-}
