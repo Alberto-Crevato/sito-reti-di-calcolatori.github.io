@@ -37,14 +37,12 @@ img.homepagePos{
 }
 
 img.flort{
-  border: 10px transparent;
-  padding: 10px;
+  padding: 20px;
   float:right;
 }
 
 img.flolf{
-  border: 10px transparent;
-  padding: 10px;
+  padding: 20px;
   float:left;
 }
 
