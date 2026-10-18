@@ -32,15 +32,17 @@ li{
   margin-left: 150px;
 }
 
-img.pos1{
+img.homepagePos{
   margin-left: 375px;
 }
 
 img.flort{
+  border: 10px transparent;
   float:right;
 }
 
 img.flolf{
+  border: 10px transparent;
   float:left;
 }
 
