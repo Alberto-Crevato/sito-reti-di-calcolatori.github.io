@@ -52,7 +52,8 @@ img.flolf{
 
 .return{
   background-color: cyan;
-  width: 20px;
-  padding: 50px;
-  margin:auto;
+  border-radius: 10px;
+  width: 10px;
+  padding: 10px;
+  text-align:center;
 }
