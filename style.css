@@ -12,6 +12,7 @@ h1{
   color: cyan;
 }
  body{
+   line-height: 1.6;
    font-family: verdana;
  }
 
@@ -35,7 +36,13 @@ img.pos1{
   margin-left: 375px;
 }
 
-img.pos2{
-  margin-right: 300px;
+img.flort{
+  margin-right: 100px;
+  float:right;
+}
+
+img.flolf{
+  margin-left: 100px;
+  float:left;
 }
 
