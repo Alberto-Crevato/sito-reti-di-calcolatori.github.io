@@ -1,3 +1,7 @@
+html{
+  background: linear-gradient(90deg,rgba(83, 237, 219, 1) 0%, rgba(255, 255, 255, 1) 17%, rgba(255, 255, 255, 1) 83%, rgba(83, 237, 219, 1) 100%);
+}
+
 h1{
   font-family: verdana;
   text-align: center;
@@ -21,8 +25,4 @@ p {
 li{
   margin-right: 150px;
   margin-left: 150px;
-}
-
-img{
-  float: right;
 }
