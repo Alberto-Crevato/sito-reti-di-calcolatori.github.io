@@ -21,7 +21,7 @@ h3{
   margin-left: 100px;
 }
 
-p {
+p{
   margin-right: 100px;
   margin-left: 100px;
   text-align: justify; 
@@ -38,11 +38,13 @@ img.homepagePos{
 
 img.flort{
   border: 10px transparent;
+  padding: 10px;
   float:right;
 }
 
 img.flolf{
   border: 10px transparent;
+  padding: 10px;
   float:left;
 }
 
