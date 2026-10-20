@@ -45,6 +45,22 @@ img.flolf{
   float:left;
 }
 
+img.fade:hover {
+  opacity: 0.3;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .return{
   background-color: cyan;
   border-radius: 10px;
