@@ -46,8 +46,8 @@ img.flolf{
 }
 
 img.fade:hover{
-  opacity: 0.7;
-  transition: 0.5 ease;
+  opacity: 0.3;
+  transition: 1s ease;
 }
 
 a:link {
