@@ -27,7 +27,7 @@ h3{
 
 div{
   display:inline-flex;
-  flex-basis:auto;
+  flex-basis:fit-content;
 }
 
 p{
