@@ -26,7 +26,8 @@ h3{
 }
 
 div{
-  display:contents;
+  display:inline-flex;
+  flex-basis:auto;
 }
 
 p{
