@@ -7,13 +7,19 @@
   <body>
 
     <script>
-      function name(){
+      function nameLH(){
 	    document.getElementById("Lewis").style.display= 'block';
+      }
+
+      function noNameLH() {
+        document.getElementById("Lewis").style.display='none';
+      }
+
+	  function nameAKA(){
         document.getElementById("Kimi").style.display= 'block';
       }
 
-      function noName() {
-        document.getElementById("Lewis").style.display='none';
+      function noNameAKA() {
         document.getElementById("Kimi").style.display='none';
       }
     </script>
@@ -81,14 +87,15 @@
     </p>
   
     <a href="https://alberto-crevato.github.io/sito-reti-di-calcolatori.github.io/Lewis-Hamilton.html">
-      <img onmouseover="name()" onmouseout="noName()" class="homepagePos fade" width="170" title="Lewis Hamilton" src="/sito-reti-di-calcolatori.github.io/Lewis_Hamilton.jpg">
-      <p id="Lewis" style="display:none; margin-left:375px;font-weight:bold;">Lewis Hamilton</p>
+      <img onmouseover="nameLH()" onmouseout="noNameLH()" class="homepagePos fade" width="170" title="Lewis Hamilton" src="/sito-reti-di-calcolatori.github.io/Lewis_Hamilton.jpg">
     </a>
+	<p id="Lewis" style="display:none; margin-left:375px;font-weight:bold;">Lewis Hamilton</p>
 
     <a href="https://alberto-crevato.github.io/sito-reti-di-calcolatori.github.io/Kimi-Antonelli.html">
-      <img onmouseover="name()" onmouseout="noName()" class="homepagePos fade" width="150" title="Kimi Antonelli" src="/sito-reti-di-calcolatori.github.io/Kimi_Antonelli.jpg">
-      <p id="Kimi" style="display:none; margin-left:925px;font-weight:bold;">Kimi Antonelli</p>
+      <img onmouseover="nameAKA()" onmouseout="noNameAKA()" class="homepagePos fade" width="150" title="Kimi Antonelli" src="/sito-reti-di-calcolatori.github.io/Kimi_Antonelli.jpg">
     </a> 
+	<p id="Kimi" style="display:none; margin-left:925px;font-weight:bold;">Kimi Antonelli</p>
+	  
   </body>
   
 </html>
