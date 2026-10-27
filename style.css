@@ -19,9 +19,6 @@ h1{
 h2{
   text-align: center;
   color: red;
-}
-
-h2:hover{
   text-decoration: underline;
 }
 
