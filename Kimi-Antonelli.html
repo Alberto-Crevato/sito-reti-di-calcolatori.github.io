@@ -1,4 +1,4 @@
-<html class="kimi">
+<html Id = "back" class="kimi">
   <head>
     <title>Kimi Antonelli</title>
     <link rel="stylesheet" href="/sito-reti-di-calcolatori.github.io/style.css">
@@ -7,9 +7,13 @@
   <body>
     <script>
       function congratulazioni(){
+        document.getElementById("Bottone").style.display = 'none';
+        document.getElementById("Grazie").style.display = 'block';
+        document.getElementById("Titolo").style.color = "gold";
+        document.getElementById("Back").style.background = 'linear-gradient(90deg,rgba(239, 191, 4, 1) 0%, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 1) 93%, rgba(239, 191, 4, 1) 100%)';
       }
     </script>
-    <h1 style="color:black">Kimi Antonelli</h1>
+    <h1 Id="Titolo" style="color:black">Kimi Antonelli</h1>
     
     <h3>Storia</h3>
     <p>
@@ -75,6 +79,11 @@
       riuscendo a mantenere un livello di prestazioni molto elevato durante tutta la stagione e senza prendersi rischi inutili. 
       Ovviamente il campionato non è ancora concluso, ma i risultati ottenuti finora lo hanno già reso uno dei talenti della sua generazione. 
     </p>
+
+    <h2 Id="Bottone" style="color:black">Clicca per una sorpresa</h2>
+
+    <h2 Id="Grazie" style="text-justify:auto;visibility:none">Congratulazioni Kimi per il tuo primo titolo ma soprattutto grazie per questa splendida stagione e per avermi ricordato di credere sempre nei miei sogni.</h2>
+    <h2 Id="Grazie" style="text-justify:auto;visibility:none">"Sogna, ragazzo, sogna"</h2>
     
     <a class="return" href="/sito-reti-di-calcolatori.github.io">Ritorna ai box</a>
   </body>
